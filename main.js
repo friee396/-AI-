@@ -33,7 +33,7 @@ function render() {
         });
     } else if (node.next) {
         const btn = document.createElement("button");
-        btn.innerText = "ŽŸ‚Ö";
+        btn.innerText = "æ¬¡ã¸";
         btn.onclick = () => {
             current = node.next;
             render();
@@ -41,10 +41,10 @@ function render() {
         choicesDiv.appendChild(btn);
   }
   function render() {
-    // ‚±‚±‚ð’Ç‰Á
+    // ã“ã“ã‚’è¿½åŠ 
     window.scrollTo({
       top: 0,
-      behavior: "instant" // ‚Ê‚é‚Á‚Æ‚³‚¹‚½‚¢‚È‚ç "smooth"
+      behavior: "instant" // ã¬ã‚‹ã£ã¨ã•ã›ãŸã„ãªã‚‰ "smooth"
     });
 
     const node = story[current];
@@ -66,7 +66,7 @@ function render() {
       });
     } else if (node.next) {
       const btn = document.createElement("button");
-      btn.innerText = "ŽŸ‚Ö";
+      btn.innerText = "æ¬¡ã¸";
       btn.onclick = () => {
         current = node.next;
         render();
