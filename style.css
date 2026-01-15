@@ -1,25 +1,26 @@
 body {
-    background: #0f172a;
-    color: #e5e7eb;
-    font-family: "ü‡ñæí©", serif;
+  background: #0f172a;
+  color: #e5e7eb;
+  font-family: "ü‡ñæí©", serif;
+  font-size: 16px; /* äÓèÄÉTÉCÉY */
 }
 
 #game {
-    width: 70%;
-    margin: 40px auto;
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 10px;
 }
 
 #text {
-    white-space: pre-wrap;
-    line-height: 1.8;
-    margin-bottom: 20px;
+  white-space: pre-wrap;
+  line-height: 1.9;
+  font-size: 1.1rem; /*è≠ÇµëÂÇ´Çﬂ*/
 }
 
 button {
-    margin: 5px;
-    padding: 10px 20px;
-    background: #2563eb;
-    color: white;
-    border: none;
-    cursor: pointer;
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px;
+  font-size: 1rem;
 }
