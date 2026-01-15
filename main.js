@@ -51,7 +51,6 @@ function render() {
     const textDiv = document.getElementById("text");
     const choicesDiv = document.getElementById("choices");
 
-    textDiv.innerText = node.text;
     choicesDiv.innerHTML = "";
 
     if (node.choices) {
