@@ -318,7 +318,7 @@
         "next": "receive_yes"
       },
       {
-        "label": "受けとらない",
+        "label": "受け取らない",
         "next": "receive_no"
       }
     ]
