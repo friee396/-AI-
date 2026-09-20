@@ -1,0 +1,26 @@
+body {
+  background: #0f172a;
+  color: #e5e7eb;
+  font-family: "Ÿà–¾’©", serif;
+  font-size: 16px; /* Šî€ƒTƒCƒY */
+}
+
+#game {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+#text {
+  white-space: pre-wrap;
+  line-height: 1.9;
+  font-size: 1.1rem; /*­‚µ‘å‚«‚ß*/
+}
+
+button {
+  display: block;
+  width: 100%;
+  margin: 8px 0;
+  padding: 12px;
+  font-size: 1rem;
+}
